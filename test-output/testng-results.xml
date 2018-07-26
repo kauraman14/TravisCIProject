@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15289" started-at="2018-07-25T07:28:46Z" finished-at="2018-07-25T07:29:01Z">
+  <suite name="Default suite" duration-ms="16667" started-at="2018-07-26T06:24:18Z" finished-at="2018-07-26T06:24:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15289" started-at="2018-07-25T07:28:46Z" finished-at="2018-07-25T07:29:01Z">
+    <test name="Default test" duration-ms="16667" started-at="2018-07-26T06:24:18Z" finished-at="2018-07-26T06:24:34Z">
       <class name="myPack.GoogleLaunchAndSearch">
-        <test-method status="PASS" signature="googleLaunch()[pri:0, instance:myPack.GoogleLaunchAndSearch@3c756e4d]" name="googleLaunch" duration-ms="15263" started-at="2018-07-25T12:58:46Z" finished-at="2018-07-25T12:59:01Z">
+        <test-method status="PASS" signature="googleLaunch()[pri:0, instance:myPack.GoogleLaunchAndSearch@3c756e4d]" name="googleLaunch" duration-ms="16645" started-at="2018-07-26T11:54:18Z" finished-at="2018-07-26T11:54:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleLaunch -->
