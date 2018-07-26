@@ -29,7 +29,7 @@ after_script:
 notifications: # set notification options
   email:
     recipients:
-      - robert.murdoc@gmx.com
+      - amkaur@qasource.com
 
     # change is when the repo status goes from pass to fail or vice versa
     on_success: change
