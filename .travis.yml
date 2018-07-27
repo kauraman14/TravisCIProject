@@ -15,8 +15,8 @@ branches:
   # blacklist
   except:
     - TravisIntegration 
-    - TestRepo
-    - GitTravisCI
+    - TravisCITool
+    - GitTravisCI-1
 
 after_script: # here's a build step block
 - echo "Say Hello"
