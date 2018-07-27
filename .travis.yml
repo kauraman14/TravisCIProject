@@ -41,4 +41,4 @@ notifications: # set notification options
 ## begin build steps
 ####################
 
- install: ./install-dependencies.sh
+ # install: ./install-dependencies.sh
