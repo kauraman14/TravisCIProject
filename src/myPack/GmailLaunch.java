@@ -16,7 +16,7 @@ public class GmailLaunch {
 		WebDriver driver=new FirefoxDriver();
 		
 		//Navigate to Gmail page
-		driver.get("https://yahoo.com");
+		driver.get("https://gmail.com");
 		
 		//Maximize the window size
 		driver.manage().window().maximize();
