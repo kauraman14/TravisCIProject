@@ -38,15 +38,7 @@ notifications: # set notification options
   # Or we could just disable all email
   # email: false
   
-   # Download and cache dependencies
-      - restore_cache:
-          keys:
-          - v1-dependencies-{{ checksum "pom.xml" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
-
-     
-    
+       
 ## begin build steps
 ####################
 
