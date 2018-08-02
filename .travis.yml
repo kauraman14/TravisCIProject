@@ -18,12 +18,10 @@ branches:
     - TravisCITool
     - GitTravisCI-1
 
+after_script: # here's a build step block
+- echo "Say Hello"
 
 
-after_script:
-- test $TRAVIS_PULL_REQUEST = false \
-  && echo "not a pull request" \
-  && git push \
   
 notifications: # set notification options
   email:
