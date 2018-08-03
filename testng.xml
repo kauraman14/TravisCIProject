@@ -1,0 +1,8 @@
+<suite name="Test Suite" >
+<test name="QA Tests" >
+<classes>
+<class name="myPack.GmailLaunch" />
+
+</classes>
+</test>
+</suite>
