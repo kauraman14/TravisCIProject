@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14684" started-at="2018-07-26T06:58:26Z" finished-at="2018-07-26T06:58:41Z">
+  <suite name="Test Suite" duration-ms="44539" started-at="2018-08-03T09:11:44Z" finished-at="2018-08-03T09:12:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14684" started-at="2018-07-26T06:58:26Z" finished-at="2018-07-26T06:58:41Z">
+    <test name="QA Tests" duration-ms="44539" started-at="2018-08-03T09:11:44Z" finished-at="2018-08-03T09:12:28Z">
+      <class name="myPack.GmailLaunch">
+        <test-method status="PASS" signature="logIn()[pri:0, instance:myPack.GmailLaunch@48eff760]" name="logIn" duration-ms="29312" started-at="2018-08-03T14:41:44Z" finished-at="2018-08-03T14:42:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+      </class> <!-- myPack.GmailLaunch -->
       <class name="myPack.GoogleLaunchAndSearch">
-        <test-method status="PASS" signature="googleLaunch()[pri:0, instance:myPack.GoogleLaunchAndSearch@3c756e4d]" name="googleLaunch" duration-ms="14660" started-at="2018-07-26T12:28:26Z" finished-at="2018-07-26T12:28:41Z">
+        <test-method status="PASS" signature="googleLaunch()[pri:0, instance:myPack.GoogleLaunchAndSearch@5ae9a829]" name="googleLaunch" duration-ms="15153" started-at="2018-08-03T14:42:13Z" finished-at="2018-08-03T14:42:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleLaunch -->
       </class> <!-- myPack.GoogleLaunchAndSearch -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- QA Tests -->
+  </suite> <!-- Test Suite -->
 </testng-results>

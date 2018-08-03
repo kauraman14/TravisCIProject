@@ -20,8 +20,6 @@ branches:
 
 after_script: # here's a build step block
 - echo "Say Hello"
-
-
   
 notifications: # set notification options
   email:
