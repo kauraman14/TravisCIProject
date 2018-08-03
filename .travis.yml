@@ -34,7 +34,3 @@ notifications: # set notification options
   # email: false
   
        
-## begin build steps
-####################
-
- # install: ./install-dependencies.sh
