@@ -2,7 +2,7 @@
 <test name="QA Tests" >
 <classes>
 <class name="myPack.GmailLaunch" />
-
+<class name="myPack.GoogleLaunchAndSearch" />
 </classes>
 </test>
 </suite>
